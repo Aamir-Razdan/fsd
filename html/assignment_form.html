@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Form</title>
+  </head>
+  <body>
+    <h1>Contact us form</h1>
+    <form action="form.php">
+      <fieldset>
+        <legend>personal Information</legend>
+        First Name: <input type="text" name="Firstname" /> Last Name:
+        <input type="text" name="Lastname" />
+        <br />
+        Email: <input type="email" name="email" /> Location:
+        <select name="Location">
+          <option value="mumbai">Mumbai</option>
+          <option value="chennai">Chennai</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Banglore">Banglore</option>
+        </select>
+        DOB:
+        <input type="date">
+        Gender : <input type="radio" value="Male" checked> Male
+        <input type="radio" value="Female" >Female
+        <input type="radio" value="Other" >Other
+      </fieldset>
+      <fieldset>
+        <legend>Other</legend>
+        
+        Message:<textarea type="" name="message" rows="5" cols="20"></textarea>
+
+      </fieldset>
+
+      Password:<input type="password" name="password" />
+      Submit : <input type="Submit">
+      Reset :<input type="reset">
+    </form>
+  </body>
+</html>
